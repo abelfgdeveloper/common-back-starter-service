@@ -14,4 +14,29 @@
   <groupId>es.abelfgdeveloper.common.starter</groupId>
   <artifactId>service-starter</artifactId>
 
+  <dependencies>
+    <!-- Abelfgdeveloper Dependencies -->
+    <dependency>
+      <groupId>es.abelfgdeveloper.common.library</groupId>
+      <artifactId>common-library</artifactId>
+    </dependency>
+
+    <!-- Spring Boot Dependencies -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-aop</artifactId>
+    </dependency>
+
+    <!-- Spring Cloud Dependencies -->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-sleuth</artifactId>
+    </dependency>
+
+  </dependencies>
+
 </project>
